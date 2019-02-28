@@ -2,15 +2,39 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/text.svg');
+  //background-image: url('../img/text.svg');
   //background-image: url('../img/rings.svg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  .intro-text {
-    padding-top: 150px;
+  .logo {
+    background-image: url('../img/text.svg');
+    text-align: center;
+    color: white;
+    //height: 20px;
+    //background-image: url('../img/text.svg');
+    //background-image: url('../img/rings.svg');
+    padding-top: 250px;
     padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  .intro-text {
+    background-image: url('../img/text.svg');
+    text-align: center;
+    color: white;
+    //height: 20px;
+    //background-image: url('../img/text.svg');
+    //background-image: url('../img/rings.svg');
+    padding-top: 250px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -27,8 +51,126 @@ header.masthead {
     }
   }
 }
+
 @media(min-width:768px) {
   header.masthead {
+    .logo {
+      background-image: url('../img/rings.svg'), url('../img/text.svg');
+      max-width: 350px;
+      text-align: center;
+      //color: white;
+      margin: auto;
+      padding-top: 550px;
+      padding-bottom: 300px;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: contain;
+    }
+    .progress .back {
+      position: absolute;
+      background-color: #e7eeeb;
+      width: calc(500px);
+      height: calc(500px);
+      top: 0px;
+      left: 0px;
+      border-radius: 50%;
+    }
+    .progress .back-centre {
+      position: absolute;
+      background-color: #fff;
+      width: calc(500px - 6px);
+      height: calc(500px - 6px);
+      top: 3px;
+      left: 3px;
+      border-radius: 50%;
+    }
+    //.circle{
+      //position: relative;
+      //overflow: hidden;
+      //width: 120px;
+      //height: 120px;
+      //border-radius: 50%;
+      //background: $dark-blue;
+      //border-radius: 50%;
+      //box-shadow: 60px -60px 0 2px $color, -60px -60px 0 2px $color, -60px 60px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px $color;
+    //}
+    .circle {
+      border: 2px solid $dark-blue;
+      border-radius: 50%;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+      filter: alpha(opacity=60);
+      opacity: 0.4;
+    
+      -webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      width: 280px;
+      height: 280px;
+      z-index: 86;
+      position: relative;
+      top: -180px;
+      right: -30px;
+      float: right;
+      background-color: $light-blue;
+
+    
+      -webkit-transition: background-color .5s ease-in-out;
+      -moz-transition: background-color .5s ease-in-out;
+      -o-transition: background-color .5s ease-in-out;
+      -ms-transition: background-color .5s ease-in-out;
+      transition: background-color .5s ease-in-out;
+    }
+    .circle2 {
+      border: 2px solid $dark-blue;
+      border-radius: 50%;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+      filter: alpha(opacity=60);
+      opacity: 0.4;
+    
+      -webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      width: 280px;
+      height: 280px;
+      z-index: 86;
+      position: relative;
+      top: -10px;
+      right: -30px;
+      float: right;
+      background-color: $light-blue;
+
+    
+      -webkit-transition: background-color .5s ease-in-out;
+      -moz-transition: background-color .5s ease-in-out;
+      -o-transition: background-color .5s ease-in-out;
+      -ms-transition: background-color .5s ease-in-out;
+      transition: background-color .5s ease-in-out;
+    }
+    .circle3 {
+      border: 2px solid $dark-blue;
+      border-radius: 50%;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+      filter: alpha(opacity=60);
+      opacity: 0.4;
+    
+      -webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+      width: 280px;
+      height: 280px;
+      z-index: 86;
+      position: relative;
+      top: -180px;
+      right: -30px;
+      float: right;
+      background-color: $light-blue;
+
+    
+      -webkit-transition: background-color .5s ease-in-out;
+      -moz-transition: background-color .5s ease-in-out;
+      -o-transition: background-color .5s ease-in-out;
+      -ms-transition: background-color .5s ease-in-out;
+      transition: background-color .5s ease-in-out;
+    }
+    
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;

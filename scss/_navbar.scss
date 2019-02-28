@@ -11,6 +11,9 @@
     background-color: $primary;
     @include heading-font;
   }
+  .navbar-dark {
+    background-color: aqua
+  }
   .navbar-brand {
     color: $primary;
     @include script-font;
