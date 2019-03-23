@@ -23,19 +23,20 @@ header.masthead {
     background-size: cover;
   }
   .intro-text {
-    background-image: url('../img/text.svg');
-    text-align: center;
-    color: white;
+    //background-image: url('../img/text.svg');
+    text-align: left;
+    color: $gray-800;
     //height: 20px;
     //background-image: url('../img/text.svg');
     //background-image: url('../img/rings.svg');
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 100px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     .intro-lead-in {
+      text-align: center;
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
@@ -60,8 +61,8 @@ header.masthead {
       text-align: center;
       //color: white;
       margin: auto;
-      padding-top: 550px;
-      padding-bottom: 300px;
+      padding-top: 400px;
+      padding-bottom: 30px;
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -106,7 +107,7 @@ header.masthead {
       box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
       width: 280px;
       height: 280px;
-      z-index: 86;
+      z-index: 89;
       position: relative;
       top: -180px;
       right: -30px;
@@ -126,7 +127,6 @@ header.masthead {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
       filter: alpha(opacity=60);
       opacity: 0.4;
-    
       -webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
       box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
       width: 280px;
@@ -134,7 +134,7 @@ header.masthead {
       z-index: 86;
       position: relative;
       top: -10px;
-      right: -30px;
+      right: -80px;
       float: right;
       background-color: $light-blue;
 
@@ -156,7 +156,7 @@ header.masthead {
       box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
       width: 280px;
       height: 280px;
-      z-index: 86;
+      z-index: 80;
       position: relative;
       top: -180px;
       right: -30px;
@@ -172,7 +172,7 @@ header.masthead {
     }
     
     .intro-text {
-      padding-top: 300px;
+      padding-top: 50px;
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;

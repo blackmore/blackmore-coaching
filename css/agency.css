@@ -124,7 +124,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-dark {
-  background-color: aqua;
+  background-color: #41626F;
 }
 
 #mainNav .navbar-brand {
@@ -141,7 +141,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #41626F;
   font-family: 'Cabin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -169,7 +169,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #41626F;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -199,10 +199,9 @@ header.masthead .logo {
 }
 
 header.masthead .intro-text {
-  background-image: url("../img/text.svg");
-  text-align: center;
-  color: white;
-  padding-top: 250px;
+  text-align: left;
+  color: #343a40;
+  padding-top: 50px;
   padding-bottom: 100px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -211,6 +210,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
+  text-align: center;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -232,8 +232,8 @@ header.masthead .intro-text .intro-heading {
     max-width: 350px;
     text-align: center;
     margin: auto;
-    padding-top: 550px;
-    padding-bottom: 300px;
+    padding-top: 400px;
+    padding-bottom: 30px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -267,7 +267,7 @@ header.masthead .intro-text .intro-heading {
     box-shadow: 0 0 1px 0px white;
     width: 280px;
     height: 280px;
-    z-index: 86;
+    z-index: 89;
     position: relative;
     top: -180px;
     right: -30px;
@@ -289,7 +289,7 @@ header.masthead .intro-text .intro-heading {
     z-index: 86;
     position: relative;
     top: -10px;
-    right: -30px;
+    right: -80px;
     float: right;
     background-color: #5BA0BB;
     -webkit-transition: background-color .5s ease-in-out;
@@ -305,7 +305,7 @@ header.masthead .intro-text .intro-heading {
     box-shadow: 0 0 1px 0px white;
     width: 280px;
     height: 280px;
-    z-index: 86;
+    z-index: 80;
     position: relative;
     top: -180px;
     right: -30px;
@@ -315,7 +315,7 @@ header.masthead .intro-text .intro-heading {
     transition: background-color .5s ease-in-out;
   }
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 50px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
