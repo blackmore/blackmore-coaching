@@ -15,11 +15,17 @@
 
 body {
   overflow-x: hidden;
+  color: #41626F;
   font-family: 'Kievit Pro Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
   line-height: 1.75;
+  color: #41626F;
+}
+
+.text-muted {
+  color: #97a6ac !important;
 }
 
 a {
@@ -133,8 +139,8 @@ img::-moz-selection {
   height: 200px;
   width: 200px;
   position: relative;
-  left: 5%;
-  top: 100px;
+  left: 10px;
+  top: 50px;
   -webkit-transition: position 2s;
   /* For Safari 3.1 to 6.0 */
   transition: position 2s;
@@ -160,13 +166,13 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #bbb764;
+  color: #BD757E;
 }
 
 @media (min-width: 992px) {
   #mainNav {
     max-height: 300px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
@@ -227,7 +233,7 @@ header.masthead .logo {
 
 header.masthead .intro-text {
   text-align: left;
-  color: #343a40;
+  color: #41626F;
   padding-bottom: 100px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -236,7 +242,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  padding-top: 300px;
+  padding-top: 270px;
   text-align: center;
   font-size: 22px;
   font-style: italic;
@@ -343,7 +349,7 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text {
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;

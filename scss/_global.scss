@@ -1,11 +1,17 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
+  color: $dark-blue;
   @include body-font;
 }
 
 p {
   line-height: 1.75;
+  color: $dark-blue;
+}
+
+.text-muted {
+  color: $dark-600 !important;
 }
 
 a {

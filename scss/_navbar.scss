@@ -23,8 +23,8 @@
     height: 200px;
     width: 200px;
     position: relative;
-    left: 5%;
-    top: 100px;
+    left: 10px;
+    top: 50px;
     -webkit-transition: position 2s; /* For Safari 3.1 to 6.0 */
     transition: position 2s;
     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
@@ -62,7 +62,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: $mauve-3;
         }
       }
     }
@@ -72,7 +72,7 @@
   #mainNav {
     //padding-top: 45px;
     max-height: 300px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
