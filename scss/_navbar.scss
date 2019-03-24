@@ -1,6 +1,7 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: $gray-400;
+  //background-image: url('../img/text.svg'), url('../img/rings.svg');
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -15,13 +16,39 @@
     background-color: $dark-blue
   }
   .navbar-brand {
-    color: $primary;
+    //background-image: url('../img/text.svg'), url('../img/rings.svg');
+    //max-width: 300px;
+    text-indent: -9999px;
+    background-image: url('../img/text.svg'), url('../img/rings.svg');
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 60px;
+    top: 100px;
+    -webkit-transition: position 2s; /* For Safari 3.1 to 6.0 */
+    transition: position 2s;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+    //padding-left: 50px;
+    //padding-top: 55px;
+    //padding-bottom: 30px;
+    //text-align: -1000px;
+    //line-height: 1.20em;
+    //background-color: red;
+    //margin: auto;
+    //padding-top: 40px;
+    //padding-bottom: 30px;
+    background-repeat: no-repeat;
+    //background-attachment: scroll;
+    background-position: center center;
+    //background-size: 9%;
+    //background-size: 100px;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: transparent;
     }
   }
   .navbar-nav {
@@ -43,15 +70,22 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    //padding-top: 45px;
+    max-height: 300px;
+    padding-bottom: 150px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
+    //background-image: url(../img/rings.svg);
+    //background-repeat: no-repeat;
+    //background-attachment: scroll;
+    //background-position: 120px center;
+    //background-size: contain;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
+      font-size: 2em;
+      //text-align: -1000px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -66,10 +100,29 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $dark-blue;
+      background-color: $white;
+      //height: 50px;
+      //width: 100px;
+      //position: relative;
+
+      //
+      //background-size: 200px;
+      //background-position: 150px 55%;
+      box-shadow: 0 1px 10px -3px $gray-400;
+      .nabar-expand-lg {
+        position: relative;
+        top: 0px;
+      }
       .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
+        background-image: url('../img/text.svg');
+        background-size: 150px;
+        height: 60px;
+        width: 200px;
+        left: -20px;
+        top: -5px;
+        color: tra;
+        font-size: 1.5em;
+        padding: 10px;
       }
     }
   }
