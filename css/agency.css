@@ -130,10 +130,10 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   text-indent: -9999px;
   background-image: url("../img/text.svg"), url("../img/rings.svg");
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   position: relative;
-  left: 60px;
+  left: 5%;
   top: 100px;
   -webkit-transition: position 2s;
   /* For Safari 3.1 to 6.0 */
@@ -192,13 +192,13 @@ img::-moz-selection {
     top: 0px;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    background-image: url("../img/text.svg");
+    background-image: url("../img/text.svg"), url("../img/rings.svg");
     background-size: 150px;
     height: 60px;
     width: 200px;
     left: -20px;
     top: -5px;
-    color: tra;
+    margin-top: 10px;
     font-size: 1.5em;
     padding: 10px;
   }
