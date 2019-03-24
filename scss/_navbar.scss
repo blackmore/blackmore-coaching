@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-400;
+  //background-color: $gray-400;
   //background-image: url('../img/text.svg'), url('../img/rings.svg');
   .navbar-toggler {
     font-size: 12px;
@@ -54,7 +54,8 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
+        text-transform: none !important;
+        font-size: 110%;
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
@@ -62,7 +63,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          
+
           color: $mauve-3;
         }
       }
@@ -101,7 +102,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $white;
+      background-color: $dark-400;
       //height: 50px;
       //width: 100px;
       //position: relative;
@@ -109,7 +110,7 @@
       //
       //background-size: 200px;
       //background-position: 150px 55%;
-      box-shadow: 0 1px 10px -3px $gray-400;
+      box-shadow: 0 1px 10px -3px $gray-600;
       .nabar-expand-lg {
         position: relative;
         top: 0px;
