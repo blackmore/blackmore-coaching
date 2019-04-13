@@ -102,7 +102,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $dark-400;
+      background-color: $white;
       //height: 50px;
       //width: 100px;
       //position: relative;
@@ -110,7 +110,7 @@
       //
       //background-size: 200px;
       //background-position: 150px 55%;
-      box-shadow: 0 1px 10px -3px $gray-600;
+      box-shadow: 0 1px 20px -3px $gray-600;
       .nabar-expand-lg {
         position: relative;
         top: 0px;

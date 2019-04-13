@@ -43,6 +43,10 @@ h6 {
   background-color: $light-blue !important;
 }
 
+.modal-body {
+  text-align: left;
+}
+
 section {
   padding: 100px 0;
   h2.section-heading {
@@ -58,11 +62,19 @@ section {
     text-transform: none;
     @include serif-font;
   }
+  .subsection {
+    padding: 50px 0 50px 0;
+  }
 }
+
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    //padding: 150px 0;
+    .subsection {
+      padding: 100px 0 0px 0;
+    }
   }
+  
 }
 
 // Button Styles
