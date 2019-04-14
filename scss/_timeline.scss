@@ -156,6 +156,20 @@
   }
 }
 @media(min-width:1200px) {
+  #ueber-mich {
+    padding-top: 0px;
+  }
+  .about-me{
+    background-image: url('../img/about/sabine-about-me.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: $white;
+    margin-bottom: 50px;
+    padding-top: 220px;
+    //background-attachment: scroll;
+    background-position: center center;
+  }
   .timeline {
     > li {
       min-height: 170px;

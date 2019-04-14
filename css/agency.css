@@ -710,6 +710,19 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 1200px) {
+  #ueber-mich {
+    padding-top: 0px;
+  }
+  .about-me {
+    background-image: url("../img/about/sabine-about-me.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #fff;
+    margin-bottom: 50px;
+    padding-top: 220px;
+    background-position: center center;
+  }
   .timeline > li {
     min-height: 170px;
   }
