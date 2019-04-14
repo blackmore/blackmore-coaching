@@ -18,17 +18,8 @@
   .navbar-brand {
     //background-image: url('../img/text.svg'), url('../img/rings.svg');
     //max-width: 300px;
-    text-indent: -9999px;
-    background-image: url('../img/text.svg'), url('../img/rings.svg');
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 10px;
-    top: 50px;
-    -webkit-transition: position 2s; /* For Safari 3.1 to 6.0 */
-    transition: position 2s;
-    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
+    
+    
     //padding-left: 50px;
     //padding-top: 55px;
     //padding-bottom: 30px;
@@ -86,6 +77,17 @@
     //background-size: contain;
     background-color: transparent;
     .navbar-brand {
+      text-indent: -9999px;
+      background-image: url('../img/text.svg'), url('../img/rings.svg');
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+    -webkit-transition: position 2s; /* For Safari 3.1 to 6.0 */
+    transition: position 2s;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
       font-size: 2em;
       //text-align: -1000px;
       -webkit-transition: all 0.3s;

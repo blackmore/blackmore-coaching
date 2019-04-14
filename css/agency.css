@@ -50,12 +50,6 @@ h6 {
   font-family: 'Cabin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.column-2 {
-  -webkit-column-count: 2;
-  column-count: 2;
-  text-align: left;
-}
-
 .bg-light {
   background-color: #f5fbfd !important;
 }
@@ -90,12 +84,17 @@ section h3.section-subheading {
 }
 
 section .subsection {
-  padding: 50px 0 50px 0;
+  padding: 50px 20px 50px 20px;
 }
 
 @media (min-width: 768px) {
+  .column {
+    -webkit-column-count: 2;
+    column-count: 2;
+    text-align: left;
+  }
   section .subsection {
-    padding: 100px 0 0px 0;
+    padding: 100px 20px 0px 20px;
   }
 }
 
@@ -154,19 +153,6 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  text-indent: -9999px;
-  background-image: url("../img/text.svg"), url("../img/rings.svg");
-  height: 200px;
-  width: 200px;
-  position: relative;
-  left: 10px;
-  top: 50px;
-  -webkit-transition: position 2s;
-  /* For Safari 3.1 to 6.0 */
-  transition: position 2s;
-  -webkit-transition: width 2s, height 4s;
-  /* For Safari 3.1 to 6.0 */
-  transition: width 2s, height 4s;
   background-repeat: no-repeat;
   background-position: center center;
   font-family: 'Kievit Pro Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -199,6 +185,19 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
+    text-indent: -9999px;
+    background-image: url("../img/text.svg"), url("../img/rings.svg");
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+    -webkit-transition: position 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: position 2s;
+    -webkit-transition: width 2s, height 4s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
     font-size: 2em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -549,6 +548,11 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+.about-me-img {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -728,10 +732,6 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     padding-top: 220px;
     background-position: center center;
-  }
-  .about-me-img {
-    width: 100%;
-    padding: 10px;
   }
   .timeline > li {
     min-height: 170px;

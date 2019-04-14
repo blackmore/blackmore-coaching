@@ -35,10 +35,6 @@ h6 {
   @include heading-font;
 }
 
-.column-2 {
-  column-count: 2;
-  text-align: left;
-}
 .bg-light {
   background-color: $light-blue !important;
 }
@@ -68,19 +64,24 @@ section {
     @include serif-font;
   }
   .subsection {
-    padding: 50px 0 50px 0;
+    padding: 50px 20px 50px 20px;
   }
 }
 
 @media(min-width:768px) {
+  .column {
+    column-count: 2;
+    text-align: left;
+  }
   section {
     //padding: 150px 0;
     .subsection {
-      padding: 100px 0 0px 0;
+      padding: 100px 20px 0px 20px;
     }
   }
-  
 }
+
+
 
 // Button Styles
 .btn {

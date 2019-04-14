@@ -1,4 +1,9 @@
 // Styling for the timeline section
+.about-me-img {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -100,6 +105,7 @@
   }
 }
 @media(min-width:768px) {
+
   .timeline {
     &:before {
       left: 50%;
@@ -133,6 +139,7 @@
   }
 }
 @media(min-width:992px) {
+
   .timeline {
     > li {
       min-height: 150px;
@@ -170,10 +177,7 @@
     //background-attachment: scroll;
     background-position: center center;
   }
-  .about-me-img {
-    width: 100%;
-    padding: 10px;
-  }
+
   .timeline {
     > li {
       min-height: 170px;
