@@ -157,7 +157,7 @@
 }
 @media(min-width:1200px) {
   #ueber-mich {
-    padding-top: 0px;
+    padding-top: 100px;
   }
   .about-me{
     background-image: url('../img/about/sabine-about-me.png');
@@ -169,6 +169,10 @@
     padding-top: 220px;
     //background-attachment: scroll;
     background-position: center center;
+  }
+  .about-me-img {
+    width: 100%;
+    padding: 10px;
   }
   .timeline {
     > li {

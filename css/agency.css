@@ -15,13 +15,13 @@
 
 body {
   overflow-x: hidden;
-  color: #41626F;
+  color: #293e46;
   font-family: 'Kievit Pro Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
   line-height: 1.75;
-  color: #41626F;
+  color: #293e46;
 }
 
 .text-muted {
@@ -29,15 +29,15 @@ p {
 }
 
 a {
-  color: #bbb764;
+  color: #41626F;
 }
 
 a:hover {
-  color: #a4a048;
+  color: #2e464f;
 }
 
 .text-primary {
-  color: #bbb764 !important;
+  color: #41626F !important;
 }
 
 h1,
@@ -74,6 +74,12 @@ section h2.section-heading {
   margin-bottom: 10px;
 }
 
+section h2.section-heading-no-subheading {
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
@@ -104,13 +110,13 @@ section .subsection {
 }
 
 .btn-primary {
-  background-color: #bbb764;
-  border-color: #bbb764;
+  background-color: #41626F;
+  border-color: #41626F;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #ada84c !important;
-  border-color: #ada84c !important;
+  background-color: #334d57 !important;
+  border-color: #334d57 !important;
   color: white;
 }
 
@@ -120,7 +126,7 @@ section .subsection {
 }
 
 ::selection {
-  background: #bbb764;
+  background: #41626F;
   text-shadow: none;
 }
 
@@ -139,12 +145,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #bbb764;
+  background-color: #41626F;
   font-family: 'Cabin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-dark {
-  background-color: #41626F;
+  background-color: #293e46;
 }
 
 #mainNav .navbar-brand {
@@ -175,7 +181,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #41626F;
+  color: #293e46;
   font-family: 'Cabin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -247,7 +253,7 @@ header.masthead .logo {
 
 header.masthead .intro-text {
   text-align: left;
-  color: #41626F;
+  color: #293e46;
   padding-bottom: 100px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -305,7 +311,7 @@ header.masthead .intro-text .intro-heading {
     border-radius: 50%;
   }
   header.masthead .circle {
-    border: 2px solid #41626F;
+    border: 2px solid #293e46;
     border-radius: 50%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
@@ -324,7 +330,7 @@ header.masthead .intro-text .intro-heading {
     transition: background-color .5s ease-in-out;
   }
   header.masthead .circle2 {
-    border: 2px solid #41626F;
+    border: 2px solid #293e46;
     border-radius: 50%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
@@ -343,7 +349,7 @@ header.masthead .intro-text .intro-heading {
     transition: background-color .5s ease-in-out;
   }
   header.masthead .circle3 {
-    border: 2px solid #41626F;
+    border: 2px solid #293e46;
     border-radius: 50%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
@@ -406,7 +412,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(187, 183, 100, 0.9);
+  background: rgba(65, 98, 111, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -608,7 +614,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #bbb764;
+  background-color: #41626F;
 }
 
 .timeline > li .timeline-image h4 {
@@ -711,7 +717,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 1200px) {
   #ueber-mich {
-    padding-top: 0px;
+    padding-top: 100px;
   }
   .about-me {
     background-image: url("../img/about/sabine-about-me.png");
@@ -722,6 +728,10 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     padding-top: 220px;
     background-position: center center;
+  }
+  .about-me-img {
+    width: 100%;
+    padding: 10px;
   }
   .timeline > li {
     min-height: 170px;
@@ -764,8 +774,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-color: #293e46;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -792,7 +801,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #bbb764;
+  border-color: #41626F;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -860,5 +869,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #bbb764;
+  background-color: #41626F;
 }
