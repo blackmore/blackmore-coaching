@@ -23,7 +23,7 @@ $(function() {
       Email.send({
         SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
         To : 'nigel@blackmore.de',
-        From : "nigel@elasticemail.com",
+        From : email,
         Subject : "This is the subject",
         Body : message
       }).then(
