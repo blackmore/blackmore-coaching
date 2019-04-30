@@ -192,9 +192,10 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     text-indent: -9999px;
-    background-image: url("../img/text.svg"), url("../img/rings.svg");
-    height: 200px;
-    width: 200px;
+    background-image: url("../img/LOGO_BlackmoreCoaching_RGB_FINAL500.png");
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
     position: relative;
     left: 10px;
     top: 50px;
@@ -223,7 +224,7 @@ img::-moz-selection {
     top: 0px;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    background-image: url("../img/text.svg"), url("../img/rings.svg");
+    background-image: url("../img/LOGO_BlackmoreCoaching_RGB_FINAL300.png");
     background-size: 150px;
     height: 60px;
     width: 200px;
@@ -285,7 +286,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .logo {
-    background-image: url("../img/rings.svg"), url("../img/text.svg");
+    background-image: url("../img/LOGO_BlackmoreCoaching_RGB_FINAL.png");
     max-width: 350px;
     text-align: center;
     margin: auto;
