@@ -64,6 +64,10 @@ span.strikethrough {
   background-size: 100% 20%;
 }
 
+.fixed-top {
+  background-color: #8b9da8;
+}
+
 section {
   padding: 100px 0;
 }
