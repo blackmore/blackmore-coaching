@@ -58,6 +58,12 @@ h6 {
   text-align: left;
 }
 
+span.strikethrough {
+  background: url("../img/strikethrough50.png") center no-repeat;
+  padding: 0px 10px 5px 10px;
+  background-size: 100% 20%;
+}
+
 section {
   padding: 100px 0;
 }
@@ -65,7 +71,7 @@ section {
 section h2.section-heading {
   font-size: 45px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
 
 section h2.section-heading-no-subheading {
@@ -263,7 +269,6 @@ header.masthead .intro-text {
 header.masthead .intro-text .intro-lead-in {
   padding-top: 270px;
   text-align: center;
-  font-size: 22px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
@@ -309,73 +314,21 @@ header.masthead .intro-text .intro-heading {
     left: 3px;
     border-radius: 50%;
   }
-  header.masthead .circle {
-    border: 2px solid #293e46;
-    border-radius: 50%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-    opacity: 0.4;
-    -webkit-box-shadow: 0 0 1px 0px white;
-    box-shadow: 0 0 1px 0px white;
-    width: 280px;
-    height: 280px;
-    z-index: 89;
-    position: relative;
-    top: -180px;
-    right: -30px;
-    float: right;
-    background-color: #f5fbfd;
-    -webkit-transition: background-color .5s ease-in-out;
-    transition: background-color .5s ease-in-out;
-  }
-  header.masthead .circle2 {
-    border: 2px solid #293e46;
-    border-radius: 50%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-    opacity: 0.4;
-    -webkit-box-shadow: 0 0 1px 0px white;
-    box-shadow: 0 0 1px 0px white;
-    width: 280px;
-    height: 280px;
-    z-index: 86;
-    position: relative;
-    top: -10px;
-    right: -80px;
-    float: right;
-    background-color: #f5fbfd;
-    -webkit-transition: background-color .5s ease-in-out;
-    transition: background-color .5s ease-in-out;
-  }
-  header.masthead .circle3 {
-    border: 2px solid #293e46;
-    border-radius: 50%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-    opacity: 0.4;
-    -webkit-box-shadow: 0 0 1px 0px white;
-    box-shadow: 0 0 1px 0px white;
-    width: 280px;
-    height: 280px;
-    z-index: 80;
-    position: relative;
-    top: -180px;
-    right: -30px;
-    float: right;
-    background-color: #f5fbfd;
-    -webkit-transition: background-color .5s ease-in-out;
-    transition: background-color .5s ease-in-out;
-  }
   header.masthead .intro-text {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  header.masthead .intro-text h2.lead-heading-no-subheading {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 50px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
