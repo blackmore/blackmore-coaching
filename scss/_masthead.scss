@@ -2,13 +2,8 @@
 header.masthead {
   text-align: center;
   color: white;
-  //background-image: url('../img/header-bg.jpg');
   //background-color: $dark-600;
   //background-image: url('../img/rings.svg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
   .logo {
     background-image: url('../img/text.svg');
     text-align: center;
@@ -38,9 +33,14 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     .intro-lead-in {
+      background-image: url('../img/LOGO_BlackmoreCoaching_RGB_FINAL300.png');
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: 200px;
       padding-top: 270px;
       text-align: center;
-      //font-size: 22px;
+      font-size: 25px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
@@ -54,6 +54,21 @@ header.masthead {
       @include heading-font;
     }
   }
+}
+header.masthead::after {
+  content: "";
+  //background-image: url('../img/services/Einzelcoaching_BlackmoreIcons.svg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 200px;
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
 }
 
 @media(min-width:768px) {
@@ -92,6 +107,7 @@ header.masthead {
       padding-top: 50px;
       padding-bottom: 10px;
       .intro-lead-in {
+        background-image: none;
         font-size: 50px;
         font-style: italic;
         line-height: 40px;
