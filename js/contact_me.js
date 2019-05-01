@@ -24,24 +24,11 @@ $(function() {
         SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
         To : 'nigel@blackmore.de',
         From : "blackmorenigel0@gmail.com",
-        Subject : "This is the subject",
-        Body : message
+        Subject : "Kontakt: blackmore-coaching",
+        Body : name + "(" + email + ")\n" + message
       }).then(
-      message => alert(message)
-      );
-
-      $.ajax({
-        url: "././mail/contact_me.php",
-        type: "POST",
-        data: {
-          name: name,
-          phone: phone,
-          email: email,
-          message: message
-        },
-        cache: false,
-        success: function() {
-          // Success message
+      function(message) {
+        if (message == 'OK') {
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
@@ -51,8 +38,7 @@ $(function() {
             .append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
-        },
-        error: function() {
+        } else {
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -61,7 +47,12 @@ $(function() {
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
-        },
+        }
+      }
+      );
+
+      $.ajax({
+        cache: false,
         complete: function() {
           setTimeout(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
