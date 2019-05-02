@@ -48,5 +48,11 @@ section#contact {
     margin-top: 60px;
     font-size: 1.3em;
     color: $gray-blue;
+    a {
+      color: $gray-blue;
+      &:hover {
+        color: lighten($gray-blue, 11.5%) !important;
+      }
+    }
   }
 }

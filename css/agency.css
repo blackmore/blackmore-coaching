@@ -813,6 +813,14 @@ section#contact .contact-details {
   color: #9faeb7;
 }
 
+section#contact .contact-details a {
+  color: #9faeb7;
+}
+
+section#contact .contact-details a:hover {
+  color: #c1cad0 !important;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
