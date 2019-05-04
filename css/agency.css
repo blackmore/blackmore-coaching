@@ -54,6 +54,14 @@ h6 {
   background-color: #f5fbfd !important;
 }
 
+ul[role=alert] li {
+  color: #c1cad0;
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
 .modal-body {
   text-align: left;
 }
@@ -124,8 +132,8 @@ section .subsection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #7d929e !important;
-  border-color: #899ca7 !important;
+  background-color: #afbcc3 !important;
+  border-color: white !important;
   color: white;
 }
 
@@ -168,8 +176,8 @@ img::-moz-selection {
   font-family: 'Kievit Pro Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: transparent;
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -268,11 +276,11 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  background-image: url("../img/LOGO_BlackmoreCoaching_RGB_FINAL300.png");
+  background-image: url("../img/LOGO_BlackmoreCoaching_RGB_FINAL500.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: 200px;
+  background-size: 150px;
   padding-top: 270px;
   text-align: center;
   font-size: 25px;

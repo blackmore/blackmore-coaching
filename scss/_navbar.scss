@@ -36,10 +36,9 @@
     //background-size: 100px;
     @include script-font;
     &.active,
-    &:active,
     &:focus,
     &:hover {
-      color: transparent;
+      color: $white;
     }
   }
   .navbar-nav {
