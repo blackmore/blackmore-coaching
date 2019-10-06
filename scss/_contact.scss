@@ -20,6 +20,13 @@ section#contact {
       height: 248px;
     }
   }
+  .contact-align {
+      display: inline-block;
+      width: 200px;
+      text-align: right;
+      margin-right: 10px;
+  }
+
   .form-control:focus {
     border-color: $primary;
     box-shadow: none;

@@ -126,6 +126,13 @@ section {
     box-shadow: 0 0 0 0.2rem $gray-blue !important;
   }
 }
+.pad-10-left {
+  padding-left: 10px;
+}
+
+.icon-larger {
+  font-size: 1.5em;
+}
 
 // Highlight color customization
 ::-moz-selection {
