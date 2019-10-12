@@ -28,6 +28,10 @@ p {
   color: #97a6ac !important;
 }
 
+.events {
+  margin-top: 2em;
+}
+
 a {
   color: #c37a7f;
 }
