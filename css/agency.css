@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -42,6 +42,11 @@ a:hover {
 
 .text-primary {
   color: #c37a7f !important;
+}
+
+.corona {
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 h1,
@@ -933,23 +938,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .announcement {
-  display: inline-block;
+  display: block;
   height: 100%;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  background: #293e46;
+  background: #c37a7f;
   color: white;
-  margin: 0;
-  padding: 10px 0;
-  vertical-align: middle;
-}
-
-.announcement div {
-  margin: 10px,0;
-  font-size: 1.3em;
-  color: #9faeb7;
-}
-
-.announcement a:hover {
-  color: red;
+  height: 300px;
 }
