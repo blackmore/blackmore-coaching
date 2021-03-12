@@ -18,12 +18,12 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages To : 'sabine@blackmore-coaching.de',
 
       Email.send({
-        SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
-        To : 'sabine@blackmore-coaching.de',
-        From : "blackmorenigel0@gmail.com",
+        SecureToken : "610778d3-eb80-4403-9911-220f74912144",
+        To : 'nigel@blackmore.de',
+        From : "blackmore.coaching.web@gmail.com",
         Subject : "Kontakt: blackmore-coaching",
         Body : name + "(" + email + ")\n" + message
       }).then(
