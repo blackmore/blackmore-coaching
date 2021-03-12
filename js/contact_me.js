@@ -20,9 +20,12 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages To : 'sabine@blackmore-coaching.de',
       // 95599F1B221478C0B6BCFCDBCB96ECF3F0D2
+      // SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
+      // To : 'sabine@blackmore-coaching.de',
+      // From : "blackmorenigel0@gmail.com",
 
       Email.send({
-        SecureToken : "474aa85b-5853-4f0b-9a3a-65e8ec5ad076",
+        SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
         To : 'nigel@blackmore.de',
         From : email,
         Subject : "Kontakt: blackmore-coaching",
