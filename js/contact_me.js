@@ -22,7 +22,7 @@ $(function() {
       // 95599F1B221478C0B6BCFCDBCB96ECF3F0D2
 
       Email.send({
-        SecureToken : "2af5d228-29b3-41d5-8a4d-3cd544baa24a",
+        SecureToken : "474aa85b-5853-4f0b-9a3a-65e8ec5ad076",
         To : 'nigel@blackmore.de',
         From : email,
         Subject : "Kontakt: blackmore-coaching",
