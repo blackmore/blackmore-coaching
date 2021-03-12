@@ -27,7 +27,7 @@ $(function() {
       Email.send({
         SecureToken : "ddfca744-f34f-4964-9021-50a45de07147",
         To : 'nigel@blackmore.de',
-        From : email,
+        From : 'blackmorenigel0@gmail.com',
         Subject : "Kontakt: blackmore-coaching",
         Body : name + "(" + email + ")\n" + message
       }).then(
