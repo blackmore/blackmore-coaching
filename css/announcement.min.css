@@ -2,4 +2,4 @@
  * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */.announcement{display:block;height:100%;text-align:left;width:100%;background:#c37a7f;color:#fff;height:300px}
+ */.announcement{display:inline-block;height:100%;text-align:center;width:100%;background:#293e46;color:white;margin:0;padding:10px0;vertical-align:middle;}.announcementdiv{margin:10px,0;font-size:1.3em;color:#9faeb7;}.announcementa:hover{color:red;}

@@ -937,12 +937,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #c37a7f;
 }
 
-.announcement {
-  display: block;
-  height: 100%;
-  text-align: left;
-  width: 100%;
-  background: #c37a7f;
-  color: white;
-  height: 300px;
-}
+.announcement{display:inline-block;height:100%;text-align:center;width:100%;background:#293e46;color:white;margin:0;padding:10px0;vertical-align:middle;}.announcement div{margin:10px,0;font-size:2.3em;color:#9faeb7;}.announcement a {margin-left:20px;}
