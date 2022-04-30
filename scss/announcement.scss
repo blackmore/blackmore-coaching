@@ -1,9 +1,21 @@
 .announcement {
-    display: block;
-    height: 100%;
-    text-align: left;
-    width: 100%;
-    background: #c37a7f;
-    color: white;
-    height: 300px;
-  }
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: $dark-blue;
+  color: white;
+  margin: 0;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+.announcement div {
+  margin: 10px,0;
+  font-size: 1.3em;
+  color: $gray-blue;
+}
+
+.announcement a:hover {
+  color: red;
+}
