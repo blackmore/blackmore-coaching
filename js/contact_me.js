@@ -23,7 +23,7 @@ $(function() {
 
       Email.send({
         SecureToken : "42a06028-ab10-485c-ad0c-e769f4b75078",
-        To : 'nigel@blackmore.de',
+        To : 'nigel.blackmore@redbeemedia.com',
         From : 'info@blackmore.de',
         Subject : "Kontakt: blackmore-coaching",
         Body : name + "(" + email + ")\n" + message
